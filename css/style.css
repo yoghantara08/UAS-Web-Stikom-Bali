@@ -1,0 +1,533 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+/* navigasi */
+.navbar.sticky-top {
+  background-color: white;
+}
+.dropdown-item {
+  color: #808080;
+  font-size: 14px;
+}
+
+/* Mega Menu */
+.navbar .megamenu {
+  padding: 1rem;
+}
+.navbar .megamenu ul {
+  padding: 0;
+}
+.navbar .megamenu ul li {
+  padding: 4px 0 3px 0;
+  list-style: none;
+}
+.navbar .megamenu ul li a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 14px;
+}
+.navbar .megamenu .tittle {
+  text-decoration: none;
+  color: #192f59;
+  font-weight: bold;
+  font-size: 16px;
+}
+.navbar .megamenu ul li:hover {
+  background-color: #dee2e6;
+}
+
+/* Hero / Jumbotron */
+.hero {
+  position: relative;
+  background-image: url(../gambar/stikom/hero.png);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+}
+
+.hero:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero .container {
+  padding-top: 42px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 62px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
+}
+.hero h1.slogan {
+  color: #ffcf40;
+  font-size: 62px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.hero h2 {
+  color: #eee;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 32px;
+  margin: 0;
+}
+.hero h2.slogan {
+  color: #ffcf40;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.hero .btn-get-started {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.hero .judul-jurusan {
+  padding-left: 20px;
+  padding-top: 200px;
+}
+
+/* jurusan */
+.fluid-jurusan {
+  background-color: #030f8b;
+}
+
+.jurusan {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+p.heading-jurusan {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+h1.heading-jurusan {
+  color: #ffcf40;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.card-jurusan {
+  background-color: #fff;
+  border: 5px solid #030f8b;
+  border-radius: 30px;
+  padding: 0;
+  position: relative;
+}
+
+.card-jurusan img {
+  border-radius: 20px 20px 0 0;
+  width: 100% !important;
+}
+
+.card-jurusan h2 {
+  padding: 10px 15px 5px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #192f59;
+}
+
+.card-jurusan p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 15px 60px 15px;
+  color: #444444;
+}
+
+.tmbl-selengkapnya {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffcf40;
+  height: 60px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.tmbl-selengkapnya a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.tmbl-selengkapnya a:hover {
+  color: white;
+}
+
+/* image daftar sekarang */
+.container-fluid.sekarang {
+  background-color: #1c2bca;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.daftar .text-daftar {
+  padding-left: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.daftar h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.daftar h2 {
+  font-size: 1.5em;
+}
+
+.daftar .text-writting {
+  color: #e52028;
+}
+
+.daftar p.tgl-dimulai {
+  color: #e52028;
+  margin-top: -5px;
+  padding: 0;
+}
+
+.daftar p {
+  padding-top: 30px;
+}
+
+.tombol {
+  padding: 15px 20px;
+  font-weight: bold;
+  background-color: #ffcf40;
+}
+
+.tombol:hover {
+  color: white;
+}
+
+.daftar .img-fluid {
+  box-shadow: 0px 0px 12px 7px #ffcf40;
+  border-radius: 30px 100px 30px 100px;
+}
+
+/* sejarah */
+.sejarah-stikom {
+  background-image: url('../gambar/stikom/stikom-depan2.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.sejarah-stikom .container {
+  padding: 80px 0px 80px 0px;
+  opacity: 1;
+}
+
+.sejarah-stikom .container p {
+  text-align: start;
+  font-size: 18px;
+}
+
+/* News & Upcoming Events */
+.news-events {
+  background-color: #f6f6f6;
+}
+
+.news-events .container {
+  padding: 50px 30px;
+}
+
+.news-events img {
+  height: 100%;
+}
+
+.isi-news,
+.isi-events {
+  display: flex;
+  align-items: center;
+}
+
+.heading-news {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #163269;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.isi-news {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: solid 1px #c9c9c9;
+}
+
+.isi-news h3,
+.isi-events h3 {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.isi-news p,
+.isi-events p {
+  color: #959595;
+  font-size: 12px;
+}
+
+.isi-news a,
+.isi-events a {
+  text-decoration: none;
+  color: #444444;
+  transition: all 0.2s;
+}
+
+.isi-news a:hover,
+.isi-events a:hover {
+  color: #5fcf80;
+}
+
+.heading-events {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #163269;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.isi-events {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border: solid 1px #c9c9c9;
+}
+
+/* iframe embed youtube */
+.iframe-container {
+  box-shadow: 0 0 10px 10px rgba(0, 153, 255);
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Partners */
+.partners {
+  background-color: #f6f6f6;
+}
+
+.partners .container {
+  padding: 20px 0px;
+  background-color: white;
+  box-shadow: 0px 3px 10px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+.heading-partner {
+  font-weight: bold;
+  color: #163269;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.text-partner {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
+  color: #192f59;
+}
+
+.isi-partner {
+  padding: 0 20px !important;
+  margin-bottom: 15px;
+}
+
+.isi-partner .row {
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: #ababab;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+}
+
+footer ul li a:hover {
+  color: #808080;
+}
+
+footer p {
+  color: white;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: #ffcf40;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.copyright {
+  background-color: #959595;
+}
+
+.copyright .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: white;
+  font-weight: 500;
+}
+
+/* Program Studi */
+.program-studi.studi1 {
+  background-image: url(../gambar/Jurusan/programstudi1.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 60px 0;
+}
+
+.program-studi.studi2 {
+  background-image: url(../gambar/Jurusan/programstudi2.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 60px 0;
+}
+
+.judul-profil-studi {
+  padding-bottom: 30px;
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.judul-profil-studi h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffcf40;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.judul-profil-studi p {
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.card-profil {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 5px;
+  border-radius: 50px 50px 15px 15px;
+}
+
+.card-profil h3 {
+  color: rgb(255, 207, 64);
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card-profil p {
+  color: #444444;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-profil i {
+  font-size: 64px;
+  color: black;
+}
+
+/* Visi Misi */
+.visiMisi {
+  background-image: url(../gambar/stikom/background1.jpg);
+  padding: 60px 0;
+}
+
+.visiMisi .container {
+  padding: 30px 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.heading-visiMisi {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffcf40;
+  margin-bottom: 50px;
+  text-shadow: 3px 2px 2px rgb(255, 255, 255);
+}
+
+.visiMisi h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  color: #959595;
+}
+
+.visiMisi p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.visiMisi ol li {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}

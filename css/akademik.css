@@ -1,0 +1,23 @@
+.header-akademik {
+  background-color: #030f8b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.header-akademik h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.kalender img {
+  margin: 30px 0;
+}
+
+.kalender .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uas Web Stikom | Kelompok 3</title>
+    <link rel="icon" href="../gambar/stikom/Logo Stikom Bali.png" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/news-events.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Script Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light p-2 sticky-top">
+      <div class="container justify-content-lg-around">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2021/01/logoitbstikombali2021.jpg" title="itbstikombali" alt="ITB Stikom Bali" width="287" height="51" />
+        </a>
+        <!-- Toggle Navbar -->
+        <button class="navbar-toggler ms-sm-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Akhir Toggle Navbar -->
+
+        <!-- Navigasi -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Halaman Utama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Halaman Utama</a>
+            </li>
+            <!-- Profile -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profile </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../profile/visi-misi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="../profile/kebijakan-mutu.html">Kebijakan Mutu</a></li>
+                <li><a class="dropdown-item" href="../profile/sambutan.html">Sambutan</a></li>
+                <li><a class="dropdown-item" href="../profile/tujuan.html">Tujuan</a></li>
+                <li><a class="dropdown-item" href="../profile/sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="../profile/arti-lambang.html">Arti Lambang</a></li>
+              </ul>
+            </li>
+            <!-- Keunggulan -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Keunggulan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../keunggulan/prestasi.html">Prestasi</a></li>
+                <li><a class="dropdown-item" href="../keunggulan/fasilitas.html">Fasilitas</a></li>
+              </ul>
+            </li>
+            <!-- Akademik -->
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Akademik </a>
+              <div class="container m-auto dropdown-menu megamenu" role="menu">
+                <div class="row justify-content-center">
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Informatika dan Komputer</a>
+                    <ul>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Komputer</a></li>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Informasi</a></li>
+                      <li><a href="../teknologi-informasi.html">Program Studi Teknologi Informasi</a></li>
+                      <li><a href="">Program Sarjana Dual Degree</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Bisnis dan Vokasi</a>
+                    <ul>
+                      <li><a href="../bisnis-digital.html">Program Studi Bisnis Digital</a></li>
+                      <li><a href="../manajemen-informatika.html">Program Diploma 3 Manajemen Informatika</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Penelitian dan Pengabdian Masyarakat</a>
+                    <ul>
+                      <li><a href="">LPPM ITB Stikom Bali</a></li>
+                      <li><a href="">Jurnal Eksplora Informatika</a></li>
+                      <li><a href="">Jurnal Sistem dan Informatika</a></li>
+                      <li><a href="">Jurnal Widya Bhakti</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <a href="" class="tittle">Info Akademik</a>
+                    <ul>
+                      <li><a href="../akademik/kalender-akademik.html">Kalender Akademik ITB Stikom Bali</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Kemahasiswaan -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../kemahasiswaan/kemahasiswaan.html">Kemahasiswaan</a>
+            </li>
+            <!-- Kerjasama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Kerjasama</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Isi Berita -->
+    <div class="container-fluid berita" data-aos="fade-up">
+      <div class="container judul-berita">
+        <h1 class="fadeInLeft">FASTTEKNO 2021 DIIKUTI 672 PESERTA DARI SELURUH INDONESIA</h1>
+        <p><i class="far fa-clock"></i> 7 JUNI 2021</p>
+      </div>
+    </div>
+
+    <div class="container isi-berita">
+      <img src="../gambar/news-events/event2.jpg" alt="" class="img-fluid fadeInBottom" />
+      <p data-aos="fade-up">
+        DENPASAR - Spektakuler. Itulah kata yang tepat untuk menggambar event Festival Teknologi atau FASTTEKNO tahun 2021 ini. Tak tanggung-tanggung, pesertanya mencapai 672 orang, yang berasal dari seluruh Indonesia. FASTTEKNO yang
+        merupakan agenda tahunan yang digelar oleh Badan Eksekutif Mahasiswa ITB STIKOM Bali bertempat di Kampus ITB STIKOM Bali. Karena masih dalam suasana pandemi Covid - 19 sehingga FASTTEKNO 2021 dikemas dalam nuansa baru, yakni konsep
+        daring (dalam jaringan). Justru di sinilah letak kekuatan Fattekno 2021 kali ini karena mampu menyedot peserta mencapai target peserta hingga 672 orang dari berbagai wilayah di Indonesia. Di antaranya dari Sumatra Utara, Sumatra
+        Selatan, Bandung, Karawang, Jawa Tengah, Yogyakarta, Bondowoso, Pasuruan, Surabaya, Jombang, Malang, Bali, dan Nusa Tenggara Timur.
+      </p>
+      <img src="../gambar/news-events/event2-1.jpg" alt="" class="img-fluid" data-aos="fade-right" />
+      <p data-aos="fade-up">
+        Kegiatan ini merupakan salah satu event yang dilaksanakan oleh BEM ITB STIKOM Bali dengan mengusung tema “Start The Journey With Creativity and Technology” dan digelar selama 3 hari pada 27 - 29 Mei 2021. Kegiatan FASTTEKNO
+        bertujuan untuk meningkatkan minat dan bakat serta jiwa kompetitif peserta pada masa pandemi ini. Dan sebagai media promosi untuk memperluas jaringan ITB STIKOM Bali ke sekolah-sekolah, perguruan tinggi, dan masyrakat umum di kancah
+        nasional
+      </p>
+      <img src="../gambar/news-events/event2-2.jpg" alt="" class="img-fluid" data-aos="fade-right" />
+      <p data-aos="fade-up">
+        Pembentukan Panitia FASTTEKNO Pada tanggal 15 Februari 2021 yang di ketuai oleh Made Deva Mahayana dan wakilnya I Made Rai Suardika. Pelaksanaan Technical Meeting (TM) Umum dilaksanakan pada tanggal 30 April 2021 dengan memaparkan
+        peraturan - peraturan pada saat lomba berlangsung dan dilanjutkan dengan Technical Meeting (TM) Finalis yang dilaksanakan pada tanggal 22 Mei 2021 dengan pembahasan pematangan peraturan pada saat lomba oleh panitia FASTTEKNO 2021.
+        Ketua panitia FASTTEKNO 2021, Made Deva Mahayana mengungkapkan pada kegiatan FASTTEKNO 2021 dilaksanakan pada hari kamis, (27/05/21) pukul 08:30 WITA yang diawali dengan agenda pembukaan FASTTEKNO bertempat di Aula ITB STIKOM Bali
+        yang diikuti oleh 277 peserta lomba secara offline dan 395 orang peserta Webinar FASTTEKNO 2021 secara online via Zoom dan disiarkan langsung melalui YouTube. Pada hari pertama FASTTEKNO 2021 juga dilaksanakan lomba - lomba IT untuk
+        tingkat SMP, SMA/K sederajat, mahasiswa se-Indonesia yaitu : Lomba Ms. Word, Ms. Excel, Ms. Power Point, Essay, dan Lomba Desain Poster.
+      </p>
+      <img src="../gambar/news-events/event2-3.jpg" alt="" class="img-fluid" data-aos="fade-right" />
+      <p data-aos="fade-up">
+        Untuk hari kedua FASTTEKNO 2021 mengadakan Webinar Nasional dengan dua pembicara yaitu Wakil Ketua Yayasan Widya Dharma Shanti (induk ITB STIKOM Bali) I Made Marlowe Bandem, B.Bus dan Rio Purba, disertai dengan pelaksanaan lomba-
+        lomba untuk tingkat umum dan SMA/K sederajat, seperti lomba Short Movie, Desain Blog, Desain Web, Desain Poster. Untuk hari Ketiga FASTTEKNO 2021 adalah hari terakhir kegiatan FASTTEKNO 2021. Diawali dengan pelaksanaan lomba dan
+        selanjutnya disertai dengan penutupan FASTTEKNO 2021. Adapun lomba yang dilaksanakan di hari ketiga untuk ingkat umum yakni: Mobile Legend dan PUBG Mobile. Setelah itu upacara penutupan FASTTEKNO 2021 sekaligus pengumuman juara bagi
+        para pemenang dari lomba - lomba yang di ajang FASTTEKNO 2021.
+      </p>
+    </div>
+    <!-- Akhir Isi Berita -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="container pt-5 pb-2">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-fluid mb-3" src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/07/ITB-RESMI-300x300.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Alamat Kampus</h3>
+              <p>Kampus Renon: Jl. Raya Puputan No. 86 Renon - Denpasar Telp: (0361) 244445</p>
+              <p>Kampus Jimbaran : Jl. Raya Kampus Udayana Jimbaran Bali Telp : (0361) 8953537 081288778840</p>
+              <p>Kampus Abiansemal : Jl. Janger Dauh Yeh Cani Kec. Abiansemal Kabupaten Badung, Bali Telp : 0856-3700-803</p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">ITB STIKOM Bali Grup</h3>
+              <ul>
+                <li><a href="https://sttbandung.ac.id/" target="_blank">Sekolah Tinggi Teknologi Bandung</a></li>
+                <li><a href="https://polnas.ac.id/" target="_blank">Politeknik Nasional Denpasar</a></li>
+                <li><a href="https://www.poltekganesha.ac.id/" target="_blank">Politeknik Ganesha Guru</a></li>
+                <li><a href="https://bismainformatika.com" target="_blank">Bisma Informatika</a></li>
+                <li><a href="https://lpba-dps.com" target="_blank">Lembaga Pendidikan Bali Asia</a></li>
+                <li><a href="https://smkti-baliglobal.sch.id/" target="_blank">SMK TI Bali Global</a></li>
+                <li><a href="https://bprsfajarbali.com/" target="_blank">BPRS FAJAR SEJAHTERA</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Quick Links</h3>
+              <ul>
+                <li><a href="" target="_blank">Penerimaan Mahasiswa Baru</a></li>
+                <li><a href="https://elearning.stikom-bali.ac.id/" target="_blank">E-Learning ITB STIKOM Bali</a></li>
+                <li><a href="https://sion.stikom-bali.ac.id/login" target="_blank">Sistem Informasi Online - SION</a></li>
+                <li><a href="http://sid.stikom-bali.ac.id/" target="_blank">Sistem Informasi Dosen (SID)</a></li>
+                <li><a href="http://eresearch.stikom-bali.ac.id/" target="_blank">E-Reserach ITB STIKOM Bali</a></li>
+                <li><a href="http://library.stikom-bali.ac.id/" target="_blank">Digital Library ITB STIKOM Bali</a></li>
+                <li><a href="http://cdc.stikom-bali.ac.id/list-job.php" target="_blank">Career Center ITB STIKOM Bali</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">Copyright All Right Reserved 2020, Pusat Komputer dan Jaringan ITB STIKOM Bali</div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Button -->
+    <!-- Media Social -->
+    <div class="side-menu">
+      <div class="toggle-btn fas fa-chevron-left"></div>
+      <a href="mailto:info@stikom-bali.ac.id" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+      </a>
+      <a href="https://www.facebook.com/STIKOM.Bali" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+        Facebook
+      </a>
+      <a href="https://twitter.com/itbstikombali" target="_blank">
+        <i class="fab fa-twitter"></i>
+        Twitter
+      </a>
+      <a href="http://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw" target="_blank">
+        <i class="fab fa-youtube"></i>
+        Youtube
+      </a>
+      <a href="https://www.instagram.com/stikombali/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </div>
+    <!-- Scroll Up Button -->
+    <a href="#" class="go-top-btn"><i class="fas fa-angle-up"></i></a>
+    <!-- WA -->
+    <a href="https://api.whatsapp.com/send/?phone=6282277389999&text=Halo%2C+Saya+ingin+mengetahui+informasi+tentang+pendaftaran+mahasiswa+baru+ITB+STIKOM+Bali&app_absent=0" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i
+    ></a>
+    <!-- Akhir Button -->
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- My JS -->
+    <script src="../script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uas Web Stikom | Kelompok 3</title>
+    <link rel="icon" href="../gambar/stikom/Logo Stikom Bali.png" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Script Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light p-2 sticky-top">
+      <div class="container justify-content-lg-around">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2021/01/logoitbstikombali2021.jpg" title="itbstikombali" alt="ITB Stikom Bali" width="287" height="51" />
+        </a>
+        <!-- Toggle Navbar -->
+        <button class="navbar-toggler ms-sm-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Akhir Toggle Navbar -->
+
+        <!-- Navigasi -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Halaman Utama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Halaman Utama</a>
+            </li>
+            <!-- Profile -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profile </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="kebijakan-mutu.html">Kebijakan Mutu</a></li>
+                <li><a class="dropdown-item" href="sambutan.html">Sambutan</a></li>
+                <li><a class="dropdown-item" href="tujuan.html">Tujuan</a></li>
+                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="arti-lambang.html">Arti Lambang</a></li>
+              </ul>
+            </li>
+            <!-- Keunggulan -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Keunggulan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../keunggulan/prestasi.html">Prestasi</a></li>
+                <li><a class="dropdown-item" href="../keunggulan/fasilitas.html">Fasilitas</a></li>
+              </ul>
+            </li>
+            <!-- Akademik -->
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Akademik </a>
+              <div class="container m-auto dropdown-menu megamenu" role="menu">
+                <div class="row justify-content-center">
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Informatika dan Komputer</a>
+                    <ul>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Komputer</a></li>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Informasi</a></li>
+                      <li><a href="../teknologi-informasi.html">Program Studi Teknologi Informasi</a></li>
+                      <li><a href="">Program Sarjana Dual Degree</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Bisnis dan Vokasi</a>
+                    <ul>
+                      <li><a href="../bisnis-digital.html">Program Studi Bisnis Digital</a></li>
+                      <li><a href="../manajemen-informatika.html">Program Diploma 3 Manajemen Informatika</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Penelitian dan Pengabdian Masyarakat</a>
+                    <ul>
+                      <li><a href="">LPPM ITB Stikom Bali</a></li>
+                      <li><a href="">Jurnal Eksplora Informatika</a></li>
+                      <li><a href="">Jurnal Sistem dan Informatika</a></li>
+                      <li><a href="">Jurnal Widya Bhakti</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <a href="" class="tittle">Info Akademik</a>
+                    <ul>
+                      <li><a href="../akademik/kalender-akademik.html">Kalender Akademik ITB Stikom Bali</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Kemahasiswaan -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../kemahasiswaan/kemahasiswaan.html">Kemahasiswaan</a>
+            </li>
+            <!-- Kerjasama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Kerjasama</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Isi -->
+    <main class="isi-profile sejarah">
+      <div class="heading-isi-profile fadeInLeft">
+        <h1>Sejarah Institut Teknologi dan Bisnis (ITB) STIKOM Bali</h1>
+      </div>
+      <div class="container">
+        <img src="../gambar/stikom/Logo Stikom Bali.png" alt="" class="img-fluid fadeInRight" />
+        <p data-aos="fade-up">
+          Berawal dari bertemunya para pemerhati, pencinta dan praktisi pendidikan yakni Prof. Dr. Made Bandem, MA., (saat itu Rektor ISI Jogjakarta), Dr. Dadang Hermawan (praktisi pendidikan), Drs. Ida Bagus Dharmadiaksa, M.Si., Ak.
+          (Dosen) dan Drs. Satria Dharma (praktisi pendidikan) pada tahun 2.000 yang begitu menaruh perhatian atas pesat dan dinamisnya perkembangan teknologi informasi dan komunikasi (TIK) di dunia termasuk di Indonesia dan Bali, namun di
+          lain pihak perguruan tinggi bidang TIK sampai dengan jenjang sarjana belum ada.
+        </p>
+        <p data-aos="fade-up">
+          Maka pada tanggal 20 Mei 2001, berdirilah Yayasan Widya Dharma Shanti yang akan menjadi Badan Penyenggara Perguruan Tinggi Swasta dan selanjutnya diajukanlah ijin pendirian Institut Teknologi dan Bisnis (ITB) STIKOM Bali kepada
+          Direktorat Jenderal Pendidikan Tinggi Kementerian Pendidikan Nasional.
+        </p>
+        <p data-aos="fade-up">
+          Dengan berbagai usaha dan lika liku pengurusan ijin serta doa, maka pada tanggal 10 Agustus 2002 keluarlah ijin dimaksud dengan nomor 157/D/O/2002 dengan 2 jurusan / program studi yakni Sistem Komputer (jenjang S1) dan Manajemen
+          Informatika (jenjang D3) lalu pada tahun 2009 ada tambahan program studi baru yakni Sistem Infomasi (jenjang S1).
+        </p>
+        <p data-aos="fade-up">
+          Saat ini, Institut Teknologi dan Bisnis (ITB) STIKOM Bali sudah menjadi perguruan tinggi bertaraf internasional yang sangat dipercaya oleh masyarakat, terbukti dengan jumlah mahasiswa yang sedang kuliah tidak kurang dari 6.000
+          orang dan alumni yang mencapai hampir 4.000 orang (tahun 2015). Selain itu berbagai kerjasama dalam bidang tri dharma perguruan tinggi telah dilakukan dengan berbagai pihak baik instansi pemerintah, instansi/perusahaan swasta,
+          BUMN, BUMD, Perguruan Tinggi baik dalam maupun luar negeri.
+        </p>
+
+        <!-- Batas Bagian Bawah -->
+        <div class="row d-flex justify-content-center align-items-center mt-5">
+          <div class="col-4">
+            <a href=""><img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/09/Tuv_Rheinland_ISO-scaled.jpg" alt="" class="img-fluid" /></a>
+          </div>
+          <div class="col-4">
+            <a href=""><img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/07/inkubator.png" alt="" class="img-fluid" /></a>
+          </div>
+          <div class="col-4">
+            <a href=""><img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/07/mikrotik_academy.png" alt="" class="img-fluid" /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <a href="">
+              <img src="../gambar/stikom/pendaftaran-banner.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Isi -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="container pt-5 pb-2">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-fluid mb-3" src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/07/ITB-RESMI-300x300.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Alamat Kampus</h3>
+              <p>Kampus Renon: Jl. Raya Puputan No. 86 Renon - Denpasar Telp: (0361) 244445</p>
+              <p>Kampus Jimbaran : Jl. Raya Kampus Udayana Jimbaran Bali Telp : (0361) 8953537 081288778840</p>
+              <p>Kampus Abiansemal : Jl. Janger Dauh Yeh Cani Kec. Abiansemal Kabupaten Badung, Bali Telp : 0856-3700-803</p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">ITB STIKOM Bali Grup</h3>
+              <ul>
+                <li><a href="https://sttbandung.ac.id/" target="_blank">Sekolah Tinggi Teknologi Bandung</a></li>
+                <li><a href="https://polnas.ac.id/" target="_blank">Politeknik Nasional Denpasar</a></li>
+                <li><a href="https://www.poltekganesha.ac.id/" target="_blank">Politeknik Ganesha Guru</a></li>
+                <li><a href="https://bismainformatika.com" target="_blank">Bisma Informatika</a></li>
+                <li><a href="https://lpba-dps.com" target="_blank">Lembaga Pendidikan Bali Asia</a></li>
+                <li><a href="https://smkti-baliglobal.sch.id/" target="_blank">SMK TI Bali Global</a></li>
+                <li><a href="https://bprsfajarbali.com/" target="_blank">BPRS FAJAR SEJAHTERA</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Quick Links</h3>
+              <ul>
+                <li><a href="" target="_blank">Penerimaan Mahasiswa Baru</a></li>
+                <li><a href="https://elearning.stikom-bali.ac.id/" target="_blank">E-Learning ITB STIKOM Bali</a></li>
+                <li><a href="https://sion.stikom-bali.ac.id/login" target="_blank">Sistem Informasi Online - SION</a></li>
+                <li><a href="http://sid.stikom-bali.ac.id/" target="_blank">Sistem Informasi Dosen (SID)</a></li>
+                <li><a href="http://eresearch.stikom-bali.ac.id/" target="_blank">E-Reserach ITB STIKOM Bali</a></li>
+                <li><a href="http://library.stikom-bali.ac.id/" target="_blank">Digital Library ITB STIKOM Bali</a></li>
+                <li><a href="http://cdc.stikom-bali.ac.id/list-job.php" target="_blank">Career Center ITB STIKOM Bali</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">Copyright All Right Reserved 2020, Pusat Komputer dan Jaringan ITB STIKOM Bali</div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Button -->
+    <!-- Media Social -->
+    <div class="side-menu">
+      <div class="toggle-btn fas fa-chevron-left"></div>
+      <a href="mailto:info@stikom-bali.ac.id" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+      </a>
+      <a href="https://www.facebook.com/STIKOM.Bali" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+        Facebook
+      </a>
+      <a href="https://twitter.com/itbstikombali" target="_blank">
+        <i class="fab fa-twitter"></i>
+        Twitter
+      </a>
+      <a href="http://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw" target="_blank">
+        <i class="fab fa-youtube"></i>
+        Youtube
+      </a>
+      <a href="https://www.instagram.com/stikombali/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </div>
+    <!-- Scroll Up Button -->
+    <a href="#" class="go-top-btn"><i class="fas fa-angle-up"></i></a>
+    <!-- WA -->
+    <a href="https://api.whatsapp.com/send/?phone=6282277389999&text=Halo%2C+Saya+ingin+mengetahui+informasi+tentang+pendaftaran+mahasiswa+baru+ITB+STIKOM+Bali&app_absent=0" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i
+    ></a>
+    <!-- Akhir Button -->
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- My JS -->
+    <script src="../script/script.js"></script>
+  </body>
+</html>

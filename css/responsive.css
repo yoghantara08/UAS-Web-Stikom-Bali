@@ -1,0 +1,130 @@
+@media (min-width: 1200px) {
+  .text-daftar {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    background-attachment: fixed;
+  }
+  .container {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+
+  .isi-events {
+    margin-left: -10px;
+  }
+
+  .isi-news {
+    margin-right: -10px;
+  }
+
+  .hero .container {
+    padding-top: 32px;
+  }
+
+  .hero .judul-jurusan {
+    padding-top: 250px !important;
+  }
+  .hero .judul-jurusan h1 {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .hero h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .hero h2.slogan {
+    font-size: 32px;
+  }
+
+  .card-jurusan h2 {
+    font-size: 22px;
+  }
+  .card-jurusan h2.magang {
+    font-size: 22px;
+  }
+
+  .studi {
+    height: 70px;
+  }
+
+  .text-partner {
+    font-size: 24px;
+  }
+
+  .hero .judul-jurusan {
+    padding-top: 250px !important;
+  }
+  .hero .judul-jurusan h1 {
+    font-size: 42px !important;
+  }
+}
+@media (max-width: 576px) {
+  .hero {
+    background-image: url(../gambar/stikom/hero-mobile.png);
+    height: 50vh;
+  }
+  .daftar h1 {
+    font-size: 32px;
+  }
+  .daftar h2 {
+    font-size: 22px;
+  }
+  .daftar p {
+    padding-top: 10px;
+  }
+
+  .isi-events h3,
+  .isi-news h3 {
+    font-size: 16px;
+  }
+
+  .hero .judul-jurusan {
+    padding-top: 150px !important;
+  }
+  .hero .judul-jurusan h1 {
+    font-size: 38px !important;
+  }
+
+  .misi {
+    padding-left: 20px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .go-top-btn {
+    bottom: 30px;
+    right: 40px;
+    width: 45px;
+    height: 45px;
+  }
+}

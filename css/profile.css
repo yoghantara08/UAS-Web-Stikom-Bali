@@ -1,0 +1,94 @@
+body {
+  background-image: url(../gambar/stikom/background1.jpg);
+  background-size: cover;
+}
+
+.isi-profile {
+  margin-bottom: 50px;
+}
+
+.heading-isi-profile h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  padding: 30px 0 40px 0;
+}
+
+.isi-profile .container {
+  background-color: white;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+.isi-profile h2 {
+  color: #192f59;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.isi-profile h3 {
+  font-size: 28px;
+  color: #58595b;
+  font-weight: 700;
+}
+
+.isi-profile p {
+  font-size: 20px;
+}
+
+.isi-profile ul li,
+.isi-profile ol li {
+  text-align: start;
+  font-size: 20px;
+}
+
+.isi-profile .col-12 img {
+  border: 0.5px inset #106397;
+  transition: 0.5s;
+}
+
+.isi-profile .col-4 img {
+  transition: 0.5s;
+}
+
+.isi-profile a img:hover {
+  opacity: 0.5;
+}
+
+img.sambutan.img-fluid {
+  width: 90%;
+}
+
+.isi-profile.sambutan p,
+.isi-profile.sejarah p {
+  text-align: start;
+  padding: 0 10px;
+}
+
+img.lambang {
+  width: 80%;
+}
+
+.isi-profile ol li {
+  padding: 10px;
+}
+
+@media (max-width: 567px) {
+  .isi-profile .container {
+    padding: 30px 30px;
+  }
+  .isi-profile h2 {
+    font-size: 26px;
+  }
+  .isi-profile p {
+    font-size: 14px;
+  }
+
+  .isi-profile ul li,
+  .isi-profile ol li {
+    text-align: start;
+    font-size: 16px;
+  }
+}

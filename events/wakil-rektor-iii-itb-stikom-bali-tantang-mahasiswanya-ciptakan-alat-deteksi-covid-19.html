@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uas Web Stikom | Kelompok 3</title>
+    <link rel="icon" href="../gambar/stikom/Logo Stikom Bali.png" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/news-events.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Script Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-light p-2 sticky-top">
+      <div class="container justify-content-lg-around">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2021/01/logoitbstikombali2021.jpg" title="itbstikombali" alt="ITB Stikom Bali" width="287" height="51" />
+        </a>
+        <!-- Toggle Navbar -->
+        <button class="navbar-toggler ms-sm-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Akhir Toggle Navbar -->
+
+        <!-- Navigasi -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Halaman Utama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Halaman Utama</a>
+            </li>
+            <!-- Profile -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profile </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../profile/visi-misi.html">Visi dan Misi</a></li>
+                <li><a class="dropdown-item" href="../profile/kebijakan-mutu.html">Kebijakan Mutu</a></li>
+                <li><a class="dropdown-item" href="../profile/sambutan.html">Sambutan</a></li>
+                <li><a class="dropdown-item" href="../profile/tujuan.html">Tujuan</a></li>
+                <li><a class="dropdown-item" href="../profile/sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="../profile/arti-lambang.html">Arti Lambang</a></li>
+              </ul>
+            </li>
+            <!-- Keunggulan -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Keunggulan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../keunggulan/prestasi.html">Prestasi</a></li>
+                <li><a class="dropdown-item" href="../keunggulan/fasilitas.html">Fasilitas</a></li>
+              </ul>
+            </li>
+            <!-- Akademik -->
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Akademik </a>
+              <div class="container m-auto dropdown-menu megamenu" role="menu">
+                <div class="row justify-content-center">
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Informatika dan Komputer</a>
+                    <ul>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Komputer</a></li>
+                      <li><a href="../sistem-informasi.html">Program Studi Sistem Informasi</a></li>
+                      <li><a href="../teknologi-informasi.html">Program Studi Teknologi Informasi</a></li>
+                      <li><a href="">Program Sarjana Dual Degree</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Fakultas Bisnis dan Vokasi</a>
+                    <ul>
+                      <li><a href="../bisnis-digital.html">Program Studi Bisnis Digital</a></li>
+                      <li><a href="../manajemen-informatika.html">Program Diploma 3 Manajemen Informatika</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3 border-end">
+                    <a href="" class="tittle">Penelitian dan Pengabdian Masyarakat</a>
+                    <ul>
+                      <li><a href="">LPPM ITB Stikom Bali</a></li>
+                      <li><a href="">Jurnal Eksplora Informatika</a></li>
+                      <li><a href="">Jurnal Sistem dan Informatika</a></li>
+                      <li><a href="">Jurnal Widya Bhakti</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <a href="" class="tittle">Info Akademik</a>
+                    <ul>
+                      <li><a href="../akademik/kalender-akademik.html">Kalender Akademik ITB Stikom Bali</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Kemahasiswaan -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../kemahasiswaan/kemahasiswaan.html">Kemahasiswaan</a>
+            </li>
+            <!-- Kerjasama -->
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Kerjasama</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Isi Berita -->
+    <div class="container-fluid berita">
+      <div class="container judul-berita fadeInLeft">
+        <h1>Wakil Rektor III ITB STIKOM Bali Tantang Mahasiswanya Ciptakan Alat Deteksi Covid - 19</h1>
+        <p><i class="far fa-clock"></i> 5 SEPTEMBER 2021</p>
+      </div>
+    </div>
+
+    <div class="container isi-berita">
+      <img src="../gambar/news-events/event1.jpg" alt="" class="img-fluid fadeInRight" />
+      <p data-aos="fade-up">
+        DENPASAR - Wakil Rektor III Bidang Kerja Sama dan Inovasi ITB STIKOM Bali I Made Sarjana menantang para mahasiswanya untuk menciptakan sebuah alat deteksi sebaran Covid - 19, sekaligus sebagai jalan untuk merintis sebuah bisnis di
+        tengah pandemi Civid - 19. “Dalam situasi pandemi Civid - 19 ini cobalah Anda ciptakan sebuah alat yang bisa taruh di jam tangan atau di saku, saat kita berdekatan dengan orang terpapar Covid -19, alat itu langsung berbunyi sehingga
+        kita bisa menghindarinya. Itu peluang bisnis besar,” tantang Sarjana ketika memberikan sambutan dalam pelantikan pengurus Himpunan Pengusaha Muda Indonesia (HIPMI) Kampus ITB STIKOM Bali di aula kampus tersebut, Sabtu (04/09/2021).
+      </p>
+      <img src="../gambar/news-events/event1-1.jpg" alt="" class="img-fluid" data-aos="fade-left" />
+      <p data-aos="fade-up">
+        Sarjana memberi contoh sebuah alat yang dipasang di loby ITB STIKOM Bali. “Begitu kita letakan tangan, cairan sanitizer keluar dan muncul angka suhu tubuh. Nah coba kalian bikin alat lain untuk deteksi orang Covid-19,” kata Sarjana.
+        Menurut Sarjana, di era teknologi informasi atau information technology (IT) dewasa ini telah melahirkan banyak orang kaya dan itu bukan hal yang luar biasa. “Sebagai mahasiswa IT kalau Anda menjadi kaya, bukan hal yang luar biasa.
+        Tapi Kalau Anda hidup miskin. itulah yang luar biasa. Lihatlah orang kaya dewasa ini, kebanyakan pengusaha IT. Maka kalau Anda mahasiswa IT lalu hidup miskin, itulah yang luar biasa. Itu berarti Anda gagal mengembangkan diri,”
+        tentang Sarjana. Mengenai pembentukan HIPMI di perguruan tinggi, kata Sarjana, itu sudah diwacanakan sejak lima tahun lalu, dan pada akhirnya baru terwujud sekarang. “Terbentuknya HIMPI ITB STIKOM Bali merupakan yang paling
+        membanggakan di bulan ini,” ungkpanya.
+      </p>
+      <img src="../gambar/news-events/event1-2.jpg" alt="" class="img-fluid" data-aos="fade-left" />
+      <p data-aos="fade-up">
+        Made Sarjana ini berharap, para pengurus HIPMI Kampus ITB STIKOM Bali dapat memanfaatkan momentum ini untuk memulai sebuah bisnis rintisan (startup). Dikatakan, gerakan 1.000 wirausahawan muda ITB STIKOM Bali yang dicanangkan sejak
+        lima tahun lalu dan diresmikan oleh AA Puspayoga, Menteri Koperasi dan UMKM kala itu, akhirnya terjawab oleh Presiden RI Joko Widodo yang juga mencanangkan 10.000 startup. “Ini sejalan dengan program ITB STIKOM Bali. Terwujud
+        harapan dan impian kita,” kata Made Sarjana yang juga sebagai pembina HIPMI Kampus ITB STIKOM Bali. Sarjana menjabarkan, 10 persen dari wisudawan ITB STIKOM Bali diresmikan menjadi wirausahawan muda. “Jadi setiap kali wisuda, kita
+        tidak hanya melepas sarjana, tetapi juga melepas wirausaha muda ITB STIKOM Bali. Negeri kita ini butuh barisan pengusaha,” tandasnya. Menurut Made Sarjana, banyak orang hanya duduk diskusi dan merencanakan sebuah bisnis berjam-jam,
+        berhari-hari tetapi tidak ada aksi. “No action, not happen,” tegasnya.
+      </p>
+      <img src="../gambar/news-events/event1-3.jpg" alt="" class="img-fluid" data-aos="fade-left" />
+      <p data-aos="fade-up">
+        Sebelumnya, Ketua Himpunan Pengusaha Muda Indonesia (HIPMI) Kota Denpasar, Dewa Gede Ngurah Wirayuda saat melantik Pengurus HIPMI Perguruan Tinggi ITB STIKOM Bali, mengatakan HIPMI ITB STIKOM Bali adalah HIMPI kampus ke-11 dibentuk
+        di Bali, terbanyak di Kota Denpasar. Disebutkan, HIMPI kampus ini digulirkan oleh Bahlil Lahadalia, Ketua Umum Badan Pengurus Pusat (BPP) HIPMI) periode 2015-2019, yang pada 28 April 2021 lalu dilantik oleh Presiden Jokowi menjadi
+        Menteri Investasi. “ITB STIKOM Bali sangat kami idam-idamkan sejak dulu (untuk membentuk HIPMI kampus). Dan ini merupakan gagasan dari Ketua Umum kami sebelumnya, sejak tahun 2015. Beliau ingin HIPMI memiliki regenerasi terbaik
+        sehingga tidak susah mencari ketua umum. Karena sudah diasa di perguruan tinggi,” ungkap Dewa Gede Ngurah Wirayuda. Dikatakan, masa jabatan HIPMI di perguruan tinggi hanya satu tahun. “Di Bali diharapkan ada HIPMI perguruan tinggi
+        di kabupaten/kota. Namun karena tidak semua ada kampus, jadi Denpasar yang paling berkembang,” ujarnya. Kepada pengurus HIPMI ITB STIKOM Bali, Wirayuda meminta agar melakukan kolaborasi dan menggunakan networking yang dimiliki.
+        “Dalam Denfest (Denpasar Festival-red) nanti, HIPMI akan disediakan tempat untuk memamerkan produknya,” ujarnya. Sementara itu, Ketua HIPMI ITB STIKOM Bali yang baru dilantik, Gede Hendri Mahardika Wicaksana mengatakan, sebagai
+        organisasi maka langkah awal yang dia lakukan adalah membangun fondasi organisasi terlebih dahulu ini. “Tujuan organisasi kami yakni mensuport ITB STIKOM Bali dalam menciptakan seribu pengusaha muda. Namun tujuan itu untuk jangka
+        panjang,” ujar mahasiswa dari Prodi Sistem Informasi ini seraya mengatakan, terbentuknya organisasi ini akan mengakselerasi tujuan 1000 pengusaha muda tersebut. Untuk saat ini, lanjut dia, fokus membangun relasi yang didahului
+        dengan membangun pondasi. “Dalam membangun bisnis itu, fondasi yang paling penting,” ujar pemuda berusai 20 tahun yang sebelumnya dalam sambutanya melontarkan tagline motivasi 'Muda, Sukses, dan Kaya' . Kepala Inkubator Bisnis ITB
+        STIKOM Bali Dedy Panji Agustino berharap, HIPMI ITB STIKOM Bali dapat menggairahkan bisnis yang ada di kampus ini. Jaringan dan ekosistem yang telah dimiliki semakin kuat, karena sudah ada organisasi yang kuat bagi mahasiswa. Baik
+        yang sudah punya usaha, maupun yang mempunyai passion di bidang usaha. “Dengan demikian, target kita dalam mencetak wirausaha muda yang baru itu bisa tercapai,” harapnya. Dia menambahkan, di ITB STIKOM Bali sendiri telah ada
+        beberapa pengusaha muda yang baru mulai merintis (startup) maupun yang sudah berjalan. “Tentunya dengan adanya organisasi ini, kita akan lakukan pengembangan-pengembangan,” tandasnya.
+      </p>
+    </div>
+    <!-- Akhir Isi Berita -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid">
+        <div class="container pt-5 pb-2">
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-fluid mb-3" src="https://www.stikom-bali.ac.id/id/wp-content/uploads/2020/07/ITB-RESMI-300x300.png" alt="" />
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Alamat Kampus</h3>
+              <p>Kampus Renon: Jl. Raya Puputan No. 86 Renon - Denpasar Telp: (0361) 244445</p>
+              <p>Kampus Jimbaran : Jl. Raya Kampus Udayana Jimbaran Bali Telp : (0361) 8953537 081288778840</p>
+              <p>Kampus Abiansemal : Jl. Janger Dauh Yeh Cani Kec. Abiansemal Kabupaten Badung, Bali Telp : 0856-3700-803</p>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">ITB STIKOM Bali Grup</h3>
+              <ul>
+                <li><a href="https://sttbandung.ac.id/" target="_blank">Sekolah Tinggi Teknologi Bandung</a></li>
+                <li><a href="https://polnas.ac.id/" target="_blank">Politeknik Nasional Denpasar</a></li>
+                <li><a href="https://www.poltekganesha.ac.id/" target="_blank">Politeknik Ganesha Guru</a></li>
+                <li><a href="https://bismainformatika.com" target="_blank">Bisma Informatika</a></li>
+                <li><a href="https://lpba-dps.com" target="_blank">Lembaga Pendidikan Bali Asia</a></li>
+                <li><a href="https://smkti-baliglobal.sch.id/" target="_blank">SMK TI Bali Global</a></li>
+                <li><a href="https://bprsfajarbali.com/" target="_blank">BPRS FAJAR SEJAHTERA</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h3 class="pb-2 fw-bold">Quick Links</h3>
+              <ul>
+                <li><a href="" target="_blank">Penerimaan Mahasiswa Baru</a></li>
+                <li><a href="https://elearning.stikom-bali.ac.id/" target="_blank">E-Learning ITB STIKOM Bali</a></li>
+                <li><a href="https://sion.stikom-bali.ac.id/login" target="_blank">Sistem Informasi Online - SION</a></li>
+                <li><a href="http://sid.stikom-bali.ac.id/" target="_blank">Sistem Informasi Dosen (SID)</a></li>
+                <li><a href="http://eresearch.stikom-bali.ac.id/" target="_blank">E-Reserach ITB STIKOM Bali</a></li>
+                <li><a href="http://library.stikom-bali.ac.id/" target="_blank">Digital Library ITB STIKOM Bali</a></li>
+                <li><a href="http://cdc.stikom-bali.ac.id/list-job.php" target="_blank">Career Center ITB STIKOM Bali</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">Copyright All Right Reserved 2020, Pusat Komputer dan Jaringan ITB STIKOM Bali</div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Button -->
+    <!-- Media Social -->
+    <div class="side-menu">
+      <div class="toggle-btn fas fa-chevron-left"></div>
+      <a href="mailto:info@stikom-bali.ac.id" target="_blank">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+      </a>
+      <a href="https://www.facebook.com/STIKOM.Bali" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+        Facebook
+      </a>
+      <a href="https://twitter.com/itbstikombali" target="_blank">
+        <i class="fab fa-twitter"></i>
+        Twitter
+      </a>
+      <a href="http://www.youtube.com/channel/UCOR6MmA9zuZgmNxUIUpl5Lw" target="_blank">
+        <i class="fab fa-youtube"></i>
+        Youtube
+      </a>
+      <a href="https://www.instagram.com/stikombali/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        Instagram
+      </a>
+    </div>
+    <!-- Scroll Up Button -->
+    <a href="#" class="go-top-btn"><i class="fas fa-angle-up"></i></a>
+    <!-- WA -->
+    <a href="https://api.whatsapp.com/send/?phone=6282277389999&text=Halo%2C+Saya+ingin+mengetahui+informasi+tentang+pendaftaran+mahasiswa+baru+ITB+STIKOM+Bali&app_absent=0" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i
+    ></a>
+    <!-- Akhir Button -->
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- My JS -->
+    <script src="../script/script.js"></script>
+  </body>
+</html>

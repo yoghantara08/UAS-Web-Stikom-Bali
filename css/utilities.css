@@ -1,0 +1,187 @@
+/* warna */
+nav.birutua {
+  background-color: #192f59;
+}
+.birutua {
+  background-color: #030f8b;
+}
+nav .hijaumuda {
+  background-color: #3db166;
+}
+.hijaumuda {
+  color: #3db166;
+}
+.biru {
+  color: #163269;
+}
+.kuning {
+  background-color: #ffcf40;
+}
+
+.text-warning {
+  color: #ffcf40 !important;
+}
+.text-primary {
+  color: #030f8b;
+}
+
+/* Media Social */
+.side-menu {
+  position: fixed;
+  top: 40%;
+  right: -180px;
+  width: 180px;
+  z-index: 9999;
+  box-sizing: border-box;
+  background-color: #f1f1f1aa;
+  transition: 0.2s linear;
+}
+
+.side-menu.active {
+  right: 0;
+}
+
+.side-menu a {
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  text-decoration: none;
+  padding: 10px 8px;
+  color: #333;
+  font-size: 20px;
+  transition: 0.1s linear;
+  font-weight: 700;
+}
+
+.side-menu a i {
+  width: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.side-menu a:hover {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+.toggle-btn {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 30px;
+  height: 50px;
+  color: #f1f1f1;
+  background-color: #333;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Scroll Up */
+.go-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: crimson;
+  z-index: 9999;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: none;
+}
+
+.go-top-btn i {
+  font-size: 24px;
+  color: white;
+}
+
+/* Whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.whatsapp:hover i {
+  color: #3c8355;
+  font-size: 60px;
+}
+.whatsapp i {
+  font-size: 54px;
+  color: #3db166;
+  transition: 0.3s all;
+}
+
+/* Tombol */
+.btn-get-started:hover {
+  border: 2px solid #f1f1f1;
+  background-color: #ffcf40;
+  font-weight: bold;
+}
+
+/* Animasi Fade */
+/* Left */
+.fadeInLeft {
+  animation: fadeInLeft 1.5s both;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Top */
+.fadeInTop {
+  animation: fadeInTop 1.5s both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Right */
+.fadeInRight {
+  animation: fadeInRight 1.5s both;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Bottom */
+.fadeInBottom {
+  animation: fadeInBottom 1.5s both;
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
